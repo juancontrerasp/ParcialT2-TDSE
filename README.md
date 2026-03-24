@@ -19,6 +19,9 @@ This repository also contains a proxy service that chooses between two mathemati
 In both MathService folder and ProxyService folder:
 
 ``
+mvn clean compile
+``
+``
 ./mvnw spring-boot:run
 ``
 
@@ -35,5 +38,27 @@ In both MathService folder and ProxyService folder:
     ![img_1.png](images%2Fimg_1.png)
 
 
-## 
+## Instances deployment
+
+- Running instances
+  ![img_4.png](images%2Fimg_4.png)
+
+
+  - Math service 1
+  ![img_5.png](images%2Fimg_5.png)
+
+    ![img_2.png](images%2Fimg_2.png)
+  
+
+- Math service 2
+  ![img_6.png](images%2Fimg_6.png)
+  ![img_3.png](images%2Fimg_3.png)
+  
+
+
+
+
+
+
+
 
