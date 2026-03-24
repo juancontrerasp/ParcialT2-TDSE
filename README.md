@@ -44,6 +44,10 @@ chmox +x mvnw
 
 And that's it, both will be running and the proxy will choose whatever math service is available
 
+## How it works
+
+The class ProxyController receives the first input and it tries to use one of the Math services, the MathController simply calculates the fibonacci sequence using Recurrence and adds all the digits into a simple list.
+
 ## Local testing
 
 - Test with n = 10:
@@ -57,7 +61,7 @@ And that's it, both will be running and the proxy will choose whatever math serv
     ![img_1.png](images%2Fimg_1.png)
 
 
-## Instances deployment
+## Instances deployment and AWS testing
 
 - Running instances
   ![img_4.png](images%2Fimg_4.png)
