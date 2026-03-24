@@ -20,8 +20,8 @@ import java.net.URL;
 @RestController
 public class ProxyController {
 
-    private final String URL1 = "http://localhost:8080";
-    private final String URL2 = "http://localhost:8081";
+    private final String URL1 = "http://ec2-3-83-102-27.compute-1.amazonaws.com:8080";
+    private final String URL2 = "http://ec2-44-210-91-34.compute-1.amazonaws.com:8080";
 
     @GetMapping("/fibwin")
     public String chooseFibonnaci(@RequestParam(value = "n", defaultValue = "0") int n) throws IOException {
