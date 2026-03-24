@@ -6,6 +6,12 @@
 
 ---
 
+### Video 
+
+https://www.youtube.com/watch?v=iz-defNg9qA
+
+---
+
 This repository contains a mathematical service includes the funcion for fibonnaci calculation with Window K = 3
 Example:
 
@@ -16,14 +22,27 @@ This repository also contains a proxy service that chooses between two mathemati
 
 ## Running project
 
+First we clone the repository:
+
+``
+git clone https://github.com/juancontrerasp/ParcialT2-TDSE
+``
+
 In both MathService folder and ProxyService folder:
 
 ``
 mvn clean compile
 ``
+
+``
+chmox +x mvnw
+``
+
 ``
 ./mvnw spring-boot:run
 ``
+
+And that's it, both will be running and the proxy will choose whatever math service is available
 
 ## Local testing
 
@@ -55,6 +74,16 @@ mvn clean compile
   ![img_3.png](images%2Fimg_3.png)
   
 
+- Proxy Service
+ 
+  ![imagee.png](images%2Fimagee.png)
+  ![imagee2.png](images%2Fimagee2.png)
+
+## Video proof
+
+In the video we can check that the service runs when one of the math services is up, since the proxy server chooses whatever server is working, it works if only one is up.
+
+https://www.youtube.com/watch?v=iz-defNg9qA
 
 
 
